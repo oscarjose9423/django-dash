@@ -1,0 +1,7 @@
+# Default ignored files
+/workspace.xml
+env/
+static/
+assets/
+home/assets/
+assets

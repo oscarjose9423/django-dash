@@ -1,0 +1,15 @@
+
+{% block content %}
+{% load plotly_dash %}
+
+
+<div class="{% plotly_class name='Nutrition_app' %} card" 
+    style="height: 100%; 
+            width: 100%"        >
+
+    {% plotly_app name='Nutrition_app' ratio=0.8 %}
+
+</div>
+
+
+{% endblock %}
